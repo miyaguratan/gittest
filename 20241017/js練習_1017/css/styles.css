@@ -1,0 +1,14 @@
+#container {
+  background-color: #8b7272;
+  width: 350px;
+  margin: auto;
+  padding: 25px;
+  transition: 0.8s ease-in-out;
+}
+
+/* !importantでIDよりclassの内容を優先する */
+.change {
+  background-color: #6633CC !important;
+  width: 200px !important;
+  transition: 0.8s ease-in-out;
+}

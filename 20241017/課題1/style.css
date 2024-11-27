@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*フォントウェイト　100,300,350,400,500,700,900*/
+
+body{
+    background-color: #F0F3F4;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+#container{
+    background-color: #fff;
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.16);
+}
+#container h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.8s ease-in-out;
+}
+#container p{
+    line-height: 1.75;
+    transition: 0.8s ease-in-out;
+}
+.control{
+    display: flex;
+    margin-top: 30px;
+    padding: 5px;
+    align-items: center;
+}
+.control p{
+    margin-right: 20px;
+}
+#btn_small,#btn_large,#btn_custom {
+    background-color: #F0F3F4;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+#btn_small:hover,#btn_large:hover,#btn_custom:hover {
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+#btn_small:active,#btn_large:active,#btn_custom:active {
+    position: relative;
+    top: 5px;
+    background-color: #a8dde7;
+    box-shadow: none;
+}
+
+.small_text h1 {
+    font-size: 15px !important;
+    transition: 0.8s ease-in-out;
+}
+
+.big_text h1 {
+    font-size: 30px !important;
+    transition: 0.8s ease-in-out;
+}
+
+.small_text p {
+    font-size: 12px;
+    transition: 0.8s ease-in-out;
+}
+
+#font_size {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#btn_custom {
+    margin-left: 8px;
+    padding: 2px 10px;
+    font-size: 16px;
+}
+
+#picker {
+    margin-left: 4px;
+}
